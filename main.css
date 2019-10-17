@@ -96,3 +96,12 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
+footer li img a {
+  cursor: pointer;
+  position: relative;
+}
+
+footer li img a:active {
+  top: 2px;
+}
