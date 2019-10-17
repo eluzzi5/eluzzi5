@@ -11,6 +11,7 @@
 
 <body>
   <header class="container">
+    <h1> Erica Luzzi </h1>
     <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
@@ -20,18 +21,18 @@
 </div>
 
     <div id="main">
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; ,menu</span>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
     </div>
 
     <script>
       function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
+      document.getElementById("main").style.marginRight = "250px";
      }
 
       function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
+      document.getElementById("main").style.marginRight= "0";
      }
    </script>
   </header>
