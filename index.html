@@ -10,18 +10,35 @@
 
 <body>
   <header class="container">
-    <div class="row">
-      <nav class="col-sm-6">
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="cv.html">CV</a>
-	<a href="poetry.html">Poetry</a>
-      </nav>
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="cv.html">CV</a>
+      <a href="poetry.html">Poetry</a>
+</div>
+
+    <div id="main">
+      <h2>Sidenav Push Example</h2>
+      <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
     </div>
+
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+     }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+     }
+   </script>
   </header>
-  <section class="container">
-  <div class="row">
+	
+<section class="container">
+<div class="row">
     <!-- images are placeholders. -->
     <figure class="col-sm-6">
       <p>locked eyes and likeability: a study on neural synchrony</p>
