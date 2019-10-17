@@ -81,13 +81,6 @@ section .row p {
   margin: 0 0 30px;
 }
 
-.container .row .col-sm-6 {
-  min-width: 775px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 footer {
   font-size: 12px;
   padding: 20px 0;
