@@ -114,3 +114,14 @@ footer .col-sm-2 a {
 footer .col-sm-2 a:active {
   top: 2px;
 }
+
+.fa-paper-plane   {
+  color: black;
+  align: center;
+}
+.fa-github{
+  color: black;
+}
+.fa-linkedin{
+  color: black;
+}
