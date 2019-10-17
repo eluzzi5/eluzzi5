@@ -16,6 +16,7 @@ footer {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: .0005rem .1rem;*/
+  font-family: 'Fira Code', monospace;
   font-size: 12px;
   padding: 20px 0;
 }
