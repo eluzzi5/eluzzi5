@@ -79,19 +79,6 @@ section .row p {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: .0005rem .1rem;
-  font-family: 'Fira Code', monospace;
   font-size: 12px;
   padding: 20px 0;
 }
@@ -105,22 +92,7 @@ footer ul {
   list-style: none;
 }
 
-footer .col-sm-2 a {
-  cursor: pointer;
-  position: relative;
-}
-
-footer .col-sm-2 a:active {
-  top: 2px;
-}
-
-.fa-paper-plane   {
-  color: black;
-  align: center;
-}
-.fa-github{
-  color: black;
-}
-.fa-linkedin{
-  color: black;
+footer li img {
+  width: 32px;
+  height: 32px;
 }
