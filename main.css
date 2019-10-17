@@ -10,6 +10,7 @@ body {
 
 header {
   padding: 0;
+  margin: 0;
   background-color: #fcfff5;
 }
 
@@ -17,6 +18,8 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .sidenav {
@@ -85,6 +88,7 @@ section .row p {
 footer {
   font-size: 12px;
   padding: 0;
+  margin: 0;
   background-color: #fcfff5;
 }
 
