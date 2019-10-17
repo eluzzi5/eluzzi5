@@ -79,7 +79,7 @@ section .row p {
 }
 
 footer {
-  /*display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -90,7 +90,7 @@ footer {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: .0005rem .1rem;*/
+  padding: .0005rem .1rem;
   font-family: 'Fira Code', monospace;
   font-size: 12px;
   padding: 20px 0;
