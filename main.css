@@ -10,6 +10,7 @@ body {
 
 header {
   padding: 20px 0;
+  background-color: #e4f2e7;
 }
 
 header .row,
@@ -84,6 +85,7 @@ section .row p {
 footer {
   font-size: 12px;
   padding: 20px 0;
+  background-color: #e4f2e7;
 }
 
 footer .col-sm-8 {
