@@ -58,6 +58,7 @@ footer .row {
   right: 0;
   transition: margin-left .5s;
   padding: 16px;
+  text-align: right;
 }
 
 @media screen and (max-height: 450px) {
