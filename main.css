@@ -53,7 +53,7 @@ footer .row {
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-right .5s;
   padding: 16px;
 }
 
