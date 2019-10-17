@@ -10,7 +10,7 @@ body {
 
 header {
   padding: 20px 0;
-  font-weight: 700;
+  display: inline;
 }
 
 header .row,
