@@ -1,6 +1,10 @@
 /* Styling sheet for main website skeleton */
-.head {
+head {
   font-family: 'Fira-Code', monospace;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
 }
 
 footer {
