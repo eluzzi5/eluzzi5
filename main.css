@@ -81,7 +81,7 @@ section .row p {
   margin: 0 0 30px;
 }
 
-.container {
+.container .row .col-sm-6 {
   min-width: 775px;
   display: flex;
   justify-content: center;
