@@ -7,6 +7,21 @@ body {
   font-family: 'Fira Code', monospace;
 }
 
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
 footer {
   /*display: -webkit-box;
   display: -ms-flexbox;
@@ -30,11 +45,15 @@ footer .col-sm-8 {
   justify-content: flex-end;
 }
 
-.col-sm-2 a {
+footer ul {
+  list-style: none;
+}
+
+footer .col-sm-2 a {
   cursor: pointer;
   position: relative;
 }
 
-.col-sm-2 a:active {
+footer .col-sm-2 a:active {
   top: 2px;
 }
