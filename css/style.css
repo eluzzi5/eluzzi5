@@ -953,6 +953,10 @@ footer li img a:active {
     text-align: center;
 }
 
+.project-title {
+     padding-top: 50px;
+}
+
 .top-bar h1 {
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
