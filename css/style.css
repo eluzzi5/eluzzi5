@@ -340,8 +340,7 @@ h5 {
     height: 100%;
     width: 100%;
     /* background: rgba(0, 0, 0, 0.96); */
-    background-image: url("img/water-pattern.jpg");
-    opactiy: 0.6;	
+    background-image: url("img/water-pattern.jpg");	
     z-index: 2;
     text-align: center;
     padding: 5px 0;
