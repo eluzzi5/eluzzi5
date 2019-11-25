@@ -698,7 +698,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+    color: ##60806f;
     padding: 0 10px;
     margin: 0 10px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -836,6 +836,29 @@ footer {
 
 footer img {
     margin: 0 auto;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer li img a {
+  cursor: pointer;
+  position: relative;
+}
+
+footer li img a:active {
+  top: 2px;
 }
 
 
