@@ -699,7 +699,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #black;
+    color: #000000;
     padding: 0 2x;
     margin: 0 2px;
     -webkit-transition: all .2s ease-in-out .2s;
