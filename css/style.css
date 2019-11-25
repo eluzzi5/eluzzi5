@@ -838,6 +838,7 @@ footer {
 .copyright {
     color: #ccc;
     margin-bottom: 0;
+    position: left;
 }
 
 footer img {
@@ -864,7 +865,7 @@ footer li img a {
 }
 
 footer li img a:active {
-  top: 2px;
+  top: 10px;
 }
 
 
