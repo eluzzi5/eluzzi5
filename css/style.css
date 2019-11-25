@@ -1,6 +1,7 @@
 /*
 * Box Theme
 * Created by : Ahmed Eissa
+* Modified by: Erica Luzzi
 * website : www.ahmedessa.net
 * behance : https://www.behance.net/3essa
 */
@@ -228,6 +229,7 @@ h5 {
 .box-logo {
     display: block;
     padding: 20px;
+    size: 60px;
 }
 
 .box-primary-nav-trigger {
@@ -337,7 +339,9 @@ h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
+    /* background: rgba(0, 0, 0, 0.96); */
+    background-image: url("img/water-pattern.jpg");
+    opactiy: 0.6;	
     z-index: 2;
     text-align: center;
     padding: 50px 0;
