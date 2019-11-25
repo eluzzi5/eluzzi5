@@ -1,45 +1,89 @@
-<!-- poetry page -->
-<!-- about page -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Erica Luzzi</title>
+  <title>erica luzzi</title>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
   <header class="container">
-    <div class="row">
-      <h1 class="col-sm-6">poems by Erica Luzzi</h1>
-      <nav class="col-sm-6">
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
+    <section class="row">
+      <h1 class="col-sm-4"> Erica Luzzi </h1>
+      <div id="mySidenav" class="sidenav text-right">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="cv.html">CV</a>
-	<a href="poetry.html">Poetry</a>
-      </nav>
-    </div>
-  </header>
+        <a href="poetry.html">Poetry</a>
+      </div>
+      <div id="main">
+        <p align="right">
+          <span style="font-size:22px;cursor:pointer" style="text-align:right" onclick="openNav()">&#9776; menu</span>
+        </p>
+      </div>
+
+      <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)"; 
+	document.getElementById("image1").style.opacity = "0.4"; 
+	document.getElementById("image2").style.opacity = "0.4"; 
+	document.getElementById("image3").style.opacity = "0.4"; 
+	document.getElementById("image4").style.opacity = "0.4"; 
+      }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight= "0";
+        document.body.style.backgroundColor = "white";
+	document.getElementById("image1").style.opacity = "1.0"; 
+	document.getElementById("image2").style.opacity = "1.0"; 
+	document.getElementById("image3").style.opacity = "1.0"; 
+	document.getElementById("image4").style.opacity = "1.0"; 
+      }
+     </script>
+   </section> 
+ </header>
+	
+<section class="container">
+<div class="about">
+	<p> coming soon </p>
+  </div>
+  </section>
+
 </body>
-<!-- Social Media footer -->
+<!-- Footer 1-->
 <footer class="container">
     <div class="row">
-      <div class="container">
-	<p class="col-sm-4"> &copy; 2019 Erica Luzzi</p>
-	<div class="col-sm-2">
-        <a href="mailto:eluzzi15@gmail.com"><i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i></a>
-        </div>
-        <div class="col-sm-2">
-        <a href="https://github.com/eluzzi5"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
-        </div>
-        <div class="col-sm-2">
-        <a href="https://www.linkedin.com/in/erica-luzzi-65659213b/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-        </div>
-      </div>
+      <p class="col-sm-4">
+        &copy; 2019 Erica Luzzi
+      </p>
+	 <ul class="col-sm-8">
+        <li class="col-sm-1">
+	  <a href="https://github.com/eluzzi5">
+            <img src="img/github.png">
+	  </a>
+        </li>
+        <li class="col-sm-1">
+	  <a href="mailto:eluzzi15@gmail.com">
+	    <img src="img/mail.jpg">
+          </a>
+        </li>
+        <li class="col-sm-1">
+	  <a href="https://www.linkedin.com/in/erica-luzzi-65659213b/">
+	    <img src="img/linkedin.png">
+	  </a>
+        </li>
+        <li class="col-sm-1">
+        </li>
+      </ul>
     </div>
-</footer>
+  </footer>
+
 
 </html>
