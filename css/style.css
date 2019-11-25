@@ -425,6 +425,11 @@ h5 {
 /* box-intro
 ==================================================*/
 
+.particle-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}	
 #particles-js {
     height: 100%;
     background: #258a72;
