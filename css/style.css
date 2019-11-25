@@ -425,6 +425,11 @@ h5 {
 /* box-intro
 ==================================================*/
 
+#particles-js {
+    height: 100%;
+    background: #258a72;
+}
+
 .box-intro {
     text-align: center;
     display: table;
