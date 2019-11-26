@@ -1,44 +1,139 @@
-<!-- about page -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Erica Luzzi</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>projects</title>
+    <link rel="icon" href="img/simple_logo.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-  <header class="container">
-    <div class="row">
-      <h1 class="col-sm-6">about me</h1>
-      <nav class="col-sm-6">
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="cv.html">CV</a>
-	<a href="poetry.html">Poetry</a>
-      </nav>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
     </div>
-  </header>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo_screenshot.png" width="250" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+        </header>
+        <!-- end box-header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li><a href="index.html">home</a></li>
+                <li><a href="img/Erica_Luzzi_CV.pdf" target="_blank">CV</a></li>
+                <li><a href="portfolio.html">projects</a></li>
+                <li><a href="poetry.html">poetry</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- box about section -->
+    <section class="box-about">
+	<div class="container main-container clearfix"> 
+	  <div class="col-md-12">
+	    <div class="col-md-4">
+	      <div class="h-30"></div>
+	      <div class="h-30"></div>
+	      <img src="img/headshot1.jpg"; height="100%"; width="100%"; alt="headshot";>
+	    </div>
+	    <div class="col-md-8">	
+	      <h1 style="font-family:nunito; size:15px;">About Me</h1> <br>
+              <p> I'm fascinated by emerging technologies and their impact on individual users as well as society at large. I graduated from Tufts University with a B.S. 
+		    in Cognitive and Brain Sciences as well as minors in Computer Science and English. </p> <br>
+              <p> My interdisciplinary background as well as my previous work in both academia and startup spaces inspired my interest in human-technology interaction. I
+		am fascinated by the way that technology shapes human behavior and changes the way people interact with one another. I hope to continue my education and 
+		learn how to create technology that is not only pleasant to interact with, but can spark lasting positive change – and do so with ethics and wellbeing in
+                mind. I am hopeful for a future in which the "Screen Time" on our phones is a small number compared to something like "Outdoor Time" or "In Person Conversation Time." </p>
+		 <div class="h-100"></div>
+		 <h7> projects </h7>
+	         <h7> ↓ </h7>
+             </div>
+	  </div>
+        </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <ul class="col-sm-8">
+	      <p class="copyright">© 2019 Erica Luzzi</p>
+              <li class="col-sm-1">
+	            <a href="https://github.com/eluzzi5">
+                <img src="img/github.png">
+	            </a>
+              </li>
+              <li class="col-sm-1">
+	            <a href="mailto:eluzzi15@gmail.com">
+	            <img src="img/mail.jpg">
+                </a>
+              </li>
+              <li class="col-sm-1">
+	            <a href="https://www.linkedin.com/in/erica-luzzi-65659213b/">
+	            <img src="img/linkedin.png">
+	            </a>
+              </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
 </body>
-<!-- Social Media footer -->
-<footer class="container">
-    <div class="row">
-      <div class="container">
-	<p class="col-sm-4"> &copy; 2019 Erica Luzzi</p>
-	<div class="col-sm-2">
-        <a href="mailto:eluzzi15@gmail.com"><i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i></a>
-        </div>
-        <div class="col-sm-2">
-        <a href="https://github.com/eluzzi5"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
-        </div>
-        <div class="col-sm-2">
-        <a href="https://www.linkedin.com/in/erica-luzzi-65659213b/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
-</footer>
 
 </html>
