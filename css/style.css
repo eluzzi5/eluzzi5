@@ -1012,6 +1012,15 @@ footer li img a:active {
     color: #777;
 }
 
+.top-bar h5 a {
+}
+
+.top-bar h5 a:hover,
+.top-bar h5 a:focus {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
 .top-bar p a:hover,
 .top-bar p a:focus {
     color: #555;
