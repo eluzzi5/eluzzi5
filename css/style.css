@@ -450,7 +450,7 @@ h6 {
 .box-intro {
     text-align: center;
     display: table;
-    height: 80vh;
+    height: 40vh;
     width: 100%;
     background: #258a72;
 }
@@ -467,6 +467,7 @@ h6 {
 
 .box-about .col-md-4 {
     position:center; 
+    padding-top: 5px;
 }	
 
 .box-intro .table-cell {
