@@ -123,6 +123,14 @@ h7 {
     font-size: 12px;
 }
 
+.text-dark {
+    color: #262626;
+}
+
+.text-light {
+    color: #f0f0f0;
+}
+
 /* preloader
 ==================================================*/
 
