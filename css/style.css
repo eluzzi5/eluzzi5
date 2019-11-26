@@ -97,7 +97,7 @@ h3 {
 }
 
 h5 {
-    color: #ffbf00;
+    color: #258a72;
 }
 
 
@@ -464,7 +464,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #258a72 !important;
 }
 
 .box-intro h5 {
@@ -954,7 +954,8 @@ footer li img a:active {
 }
 
 .project-title {
-     padding-top: 50px;
+     padding-top: 100px;
+     padding-bottom: 0px;
 }
 
 .top-bar h1 {
