@@ -69,8 +69,8 @@
     
     <!-- top-bar -->
     <div class="top-bar project-title">
-        <h1>Predicting Object Affordances</h1>
-	<p> Defining a new model for robotic agents </p>
+        <h1>Predicting object affordances</h1>
+	<p> Defining a new model for robotic agents</p><br>
 	    <h5><a href="portfolio.html">← back to projects</a></h5>
     </div>
     <!-- end top-bar -->
@@ -79,14 +79,15 @@
     <div class="container project-container">
         <div class="col-md-12">
 	    <div class="col-md-3">
-              <h3 class="text-uppercase">Predicting Object Affordances </h3>
-              <h5>Internship Project, Tufts Human Robot Interaction Lab - 2016-2017 </h5>
+              <h3 class="text-uppercase">Predicting Object Affordances</h3>
+              <h5>Internship Project, Tufts Human Robot Interaction Lab - 2016-2017</h5>
               <div class="h-30"></div>
 	      <h4 class="text-dark"> Skills Used </h4>
               <ul class="cat-ul">
-                  <li><i class="ion-ios-circle-filled"></i> Research </li>
+                  <li><i class="ion-ios-circle-filled"></i> Research</li>
               </ul>
               <div class="h-10"></div>
+	      <div class="h-10"></div>
 	      <h4 class="text-dark"> Tools Used </h4>
               <ul class="cat-ul">
                   <li><i class="ion-ios-circle-filled"></i> PHP </li>
@@ -97,47 +98,40 @@
           </div>
 <!-- end first column -->
         <div class="col-md-9 text-dark">
-	        <div class="h-10"></div>
-	        <div class="h-10"></div>
-                <p>This project sought to develop a new model of object affordance perception for robotic agents. Broadly, the affordances of an object are those functions or effects which it offers an agent. As humans, we are able to come up with solutions by utilizing objects in creative ways. For example, we are able to perceive the ability of a mug not only to hold a beverage, but also to act as a paperweight or doorstop. Inspired by this, we sought to define affordances in a way such that robotic agents operating according to this definition could perceive object affordances in a way that was not only accurate, but creative. </p><br>
-	        <p>The definition we came up with was similar to that of Erol Sahin et al., who are concerned with not only what can be afforded by an object but what should be. Their definition considers not only the physical properties of an object but also the contextual and environmental information that influence higher-level cognitive perception of the object. For example, rather than an agent perceiving the affordance of “sitability” – the ability to be sat upon – for all chairs, an agent operating under this definition would consider contextual factors such as who owns the chair when considering its sitability. In this model, an agent learns about the effects of an action on an object through trial and error.</p><br>
-		<p>Our definition sought to modify the model proposed by Sahin et al. in order to allow for more creative projection. Rather than a knowledge base developed through trial and error, our agent would have a set of rules which are referred to in order to predict object affordances. We define an affordance as follows:<br>
-			<i>An affordance <b>a</b> is a relation between an action <b>m</b> and a feature <b>f</b>, that is a normatively permissible action possibility <b>m</b> on a perceivable feature <b>f</b>. Action possibility <b>m</b> is an action in the set of available actions <b>M</b> for an agent <b>X</b>. Available actions adhere to the societal and contextual norms of the environment, which has a set of rules <b>R</b>.</i></p>
-		<p>In order to illustrate the commonalities and differences between our and Sahin et al.’s definitions, we provide three examples.<br>
-			<b>Example 1: Both definitions correctly predict affordance</b><br>
-			Touchability of fire
-			<i>Our model:</i> The agent will know that fire does not afford touching based on the set of normative rules R. It can predict the existence or lack of affordances using these rules. In this situation, even though the agent may not have previously observed the effect, it would be able to predict that the fire does not afford touching. <br>
-			<i>Sahin's model:</i> The agent will learn the effect through observing objects (such as kindling) burn in the fire. Because the agent is aware of the effect, it has acquired the knowledge that the fire does not afford touching.<br>
-			<b>Example 2: Our definition correctly predicts affordance</b><br>
-			Balanceability of an unfamiliar box 
-			<i>Our model:</i> the agent has never acted upon the box before, yet based on the agent’s ability to balance similar objects in the past, in relation with the box’s property of having a flat surface, the agent can predict that the box is able to be balanced.<br>
-			<i>Sahin's model:</i> the agent has never acted upon the box before, therefore has never witnessed the effect, therefore has not acquired an affordance for the box.<br>
-			<b>Example 3: Sahin's model correctly predicts affordance</b><br>
-			Sitability of broken chair
-			<i>Our model:</i> if the chair does not appear broken (i.e. a spring is broken on the inside) the agent would predict sitability based on knowledge of past situations. This model would not serve the agent well in this situation.<br>
-			<i>Sahin's model:</i> There would exist no affordance of the chair because no effect has been observed yet. Once the agent performs the behavior of sitting in the chair, the observed effect would be the chair breaking. The agent would then acquire the knowledge that there exists no sitability affordance of the chair.</p><br>
-		<h6> Online Study </h6><br>
-		<p>To learn more about the ways in which humans perceive object affordances, we ran a study observing people’s reasoning about objects based in different contexts. Each question consisted of a short description of the context and four objects. The participant was asked to select which objects could be used to accomplish the implied goal in the given context. For each question, one of two contexts was randomly selected. This selection was counterbalanced among participants. The objects that a participant could select varied in their functionality. Some were straightforward in the sense that they are commonly used to accomplish the desired goal. Others were more subtle in that they could potentially be used to accomplish the desired goal, though it is not a typical use case for the object. </p><br>
-		<p>This was an online study through Amazon Mechanical Turk, and I wrote the study pages using JavaScript, HTML, and PHP. For each question, a rule was considered in relation to certain affordances and features of an object. </p><br>
-		<p>Ex.<br>
-			<i>rule:</i> water conforms to the shape of its container<br>
-			<i>affordances:</i> hold water, contain<br>
-			<i>features:</i> walls, container, closed bottom</p><br>
-		<h6>Example questions</h6><br>
-		<img src="img/proj-img/affordance1.jpg" width = "98%" alt="p-values"><br>
-		<img src="img/proj-img/affordance2.jpg" width = "98%" alt="p-values"><br>
-		<img src="img/proj-img/affordance3.jpg" width = "98%" alt="p-values"><br>
-		<img src="img/proj-img/affordance4.jpg" width = "98%" alt="p-values"><br>
-		<img src="img/proj-img/affordance5.jpg" width = "98%" alt="p-values"><br>
-		<img src="img/proj-img/affordance6.jpg" width = "98%" alt="p-values"><br>
-		<div class="h-30"></div>
-		<div class="h-100"></div>
-        </div>
+	    <div class="h-10"></div>
+		<p> coming soon </p>
+	    <div class="h-30"></div>  
+	    <div class="h-100"></div>  
+	</div>
 
     </div>
     <!-- end main-container -->
 
 
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid no-padding">
+            <ul class="col-sm-8">
+	      <p class="copyright">© 2019 Erica Luzzi</p>
+              <li class="col-sm-1">
+	            <a href="https://github.com/eluzzi5">
+                <img src="img/github.png">
+	            </a>
+              </li>
+              <li class="col-sm-1">
+	            <a href="mailto:eluzzi15@gmail.com">
+	            <img src="img/mail.jpg">
+                </a>
+              </li>
+              <li class="col-sm-1">
+	            <a href="https://www.linkedin.com/in/erica-luzzi-65659213b/">
+	            <img src="img/linkedin.png">
+	            </a>
+              </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
     
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
