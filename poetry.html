@@ -69,37 +69,18 @@
 
     <div class="container main-container center clearfix"> 
 	  <div class="table-cell">
-		  <button type="button" class="collapsible">poem 1</button><br>
+		  <button type="button" class="collapsible">poem 1</button>
 		<div class="content">
  		 <p> This will be a poem </p>
 		</div>
-		<button type="button" class="collapsible">poem 2</button><br>
+		<button type="button" class="collapsible">poem 2</button>
 		<div class="content">
  		 <p> This will be a poem </p>
 		</div>
-		<button type="button" class="collapsible">poem 3</button><br>
+		<button type="button" class="collapsible">poem 3</button>
 		<div class="content">
  		 <p> This will be a poem </p>
 		</div>
-		  
-		  	<!-- collapsible script -->
-	<script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
- 	   this.classList.toggle("active");
- 	   var content = this.nextElementSibling;
- 	   if (content.style.display === "block") {
-  	    content.style.display = "none";
- 	   } else {
- 	     content.style.display = "block";
- 	   }
- 	 });
-	}
-	</script>
-
 	  </div>
         </div>
 	
@@ -146,6 +127,25 @@
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
+	
+	<!-- collapsible script -->
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+ 	   this.classList.toggle("active");
+ 	   var content = this.nextElementSibling;
+ 	   if (content.style.display === "block") {
+  	    content.style.display = "none";
+ 	   } else {
+ 	     content.style.display = "block";
+ 	   }
+ 	 });
+	}
+	</script>
+
 
 </body>
 
