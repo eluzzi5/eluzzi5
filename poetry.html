@@ -19,6 +19,25 @@
 
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
+	
+	
+	<!-- collapsible script -->
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+ 	   this.classList.toggle("active");
+ 	   var content = this.nextElementSibling;
+ 	   if (content.style.display === "block") {
+  	    content.style.display = "none";
+ 	   } else {
+ 	     content.style.display = "block";
+ 	   }
+ 	 });
+	}
+	</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,23 +88,18 @@
 
     <div class="container main-container center clearfix"> 
 	  <div class="table-cell">
-		  <button type="button" class="collapsible">Open Section 1</button><br>
+		  <button type="button" class="collapsible">poem 1</button><br>
 		<div class="content">
- 		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ 		 <p> This will be a poem </p>
 		</div>
-		<button type="button" class="collapsible">Open Section 2</button><br>
+		<button type="button" class="collapsible">poem 2</button><br>
 		<div class="content">
- 		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ 		 <p> This will be a poem </p>
 		</div>
-		<button type="button" class="collapsible">Open Section 3</button><br>
+		<button type="button" class="collapsible">poem 3</button><br>
 		<div class="content">
- 		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ 		 <p> This will be a poem </p>
 		</div>
-		  <h4> poem 1 </h4> <br> 
-		  <h4> poem 2 </h4> <br> 
-		  <h4> poem 3 </h4> <br> 
-		  <h4> poem 4 </h4> <br> 
-		  <h4> poem 5 </h4> <br> 
 	  </div>
         </div>
 	
@@ -133,23 +147,6 @@
     <!--  custom script -->
     <script src="js/custom.js"></script>
 
-	<!-- collapsible script -->
-	<script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
- 	   this.classList.toggle("active");
- 	   var content = this.nextElementSibling;
- 	   if (content.style.display === "block") {
-  	    content.style.display = "none";
- 	   } else {
- 	     content.style.display = "block";
- 	   }
- 	 });
-	}
-	</script>
 </body>
 
 </html>
