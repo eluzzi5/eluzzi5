@@ -1238,12 +1238,10 @@ textarea:focus {
 
 .content {
   padding: 0 18px;
-  margin: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 400px;
   display: none;
   overflow: hidden;
-  vertical-align: middle;
 }
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
