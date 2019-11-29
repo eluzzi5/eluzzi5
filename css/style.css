@@ -93,12 +93,23 @@ a {
 }
 
 .scroll-down {
-    color: 9ea8a6;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .active, .scroll-down:hover {
     color:#9ea8a6;
+    text-decoration: none;
+}
+
+.scroll-down-dark {
+    color: #258a72;
+    text-decoration: none;
+}
+
+.active, .scroll-down-dark:hover {
+    color:#9ea8a6;
+    text-decoration: none;
 }
 
 /* typography
