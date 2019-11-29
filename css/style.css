@@ -229,7 +229,7 @@ h7 {
 }
 
 
-/* headr
+/* header
 ==================================================*/
 
 .box-header {
@@ -299,7 +299,7 @@ h7 {
     text-transform: uppercase;
     font-weight: 700px;
     display: none;
-    font-size: 25px;
+    font-size: 5px;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
