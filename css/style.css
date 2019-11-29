@@ -95,6 +95,7 @@ a {
 .scroll-down {
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .active, .scroll-down:hover {
@@ -105,6 +106,7 @@ a {
 .scroll-down-dark {
     color: #258a72;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .active, .scroll-down-dark:hover {
