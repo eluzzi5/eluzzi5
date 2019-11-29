@@ -1243,7 +1243,7 @@ textarea:focus {
   margin-right: auto;
   display: none;
   overflow: hidden;
-  position: center;
+  vertical-align: middle;
 }
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
