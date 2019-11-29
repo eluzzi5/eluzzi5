@@ -483,10 +483,11 @@ h7 {
     padding: 0;
     height: 100vh;
 }	
-#particles-js {
-    height: 100%;
-    background: #258a72;
+#particle-div {
     margin: 0 auto;
+    width:800px;
+    height:500px;
+    background-color: #258a72;
 }
 
 .box-intro {
