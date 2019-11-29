@@ -1239,7 +1239,7 @@ textarea:focus {
 .content {
   padding: 0 18px;
   margin: 0 auto;
-  width: 850px;
+  width: 50%;
   display: none;
   overflow: hidden;
 }
