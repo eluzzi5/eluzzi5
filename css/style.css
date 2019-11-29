@@ -282,7 +282,7 @@ h7 {
 .box-logo {
     display: block;
     padding: 20px;
-    size: 200px;
+    size: 400px;
 }
 
 .box-primary-nav-trigger {
@@ -299,7 +299,7 @@ h7 {
     text-transform: uppercase;
     font-weight: 700px;
     display: none;
-    font-size: 50px;
+    font-size: 200px;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
