@@ -1237,7 +1237,7 @@ textarea:focus {
 }
 
 .content {
-  padding: 0 18px;
+  padding-left: 20px;
   margin: 0 auto;
   width: 50%;
   display: none;
