@@ -295,8 +295,9 @@ h7 {
 .box-primary-nav-trigger .box-menu-text {
     color: #2b2e2d;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700px;
     display: none;
+    font-size: 50px;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
@@ -390,8 +391,7 @@ h7 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
-    /* background-image: url("img/water-pattern.jpg"); */	
+    background: rgba(0, 0, 0, 0.96);	
     z-index: 2;
     text-align: center;
     padding: 5px 0;
