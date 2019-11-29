@@ -30,6 +30,7 @@
 
 @import url (https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i&display=swap)
 @import url (https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+@import url (https://fonts.googleapis.com/css?family=Crimson+Pro:300,300i,400,400i,700&display=swap);
 
 /* General
 ==================================================*/
@@ -1255,6 +1256,9 @@ textarea:focus {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+.poem-text {
+  font-family: 'Crimson Pro', serif;
+}
 /* Responsive media queries
 ==================================================*/
 
