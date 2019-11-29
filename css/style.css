@@ -92,6 +92,9 @@ a {
     font-size: 11px;
 }
 
+.scroll-down {
+    color: 9ea8a6;
+}
 
 /* typography
 ==================================================*/
@@ -1234,7 +1237,7 @@ textarea:focus {
 }
 
 .active, .collapsible:hover {
-  color: #f0f0f0;
+  color: #9ea8a6;
 }
 
 .content {
