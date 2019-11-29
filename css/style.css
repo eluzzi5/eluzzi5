@@ -94,6 +94,11 @@ a {
 
 .scroll-down {
     color: 9ea8a6;
+    text-decoration: none;
+}
+
+.active, .scroll-down:hover {
+    color:#9ea8a6;
 }
 
 /* typography
