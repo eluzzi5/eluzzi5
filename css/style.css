@@ -1258,6 +1258,8 @@ textarea:focus {
 
 .poem-text {
   font-family: 'Crimson Pro', serif;
+  color: #262626;
+  text-align: left;
 }
 /* Responsive media queries
 ==================================================*/
