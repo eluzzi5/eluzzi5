@@ -282,7 +282,6 @@ h7 {
 .box-logo {
     display: block;
     padding: 20px;
-    size: 400px;
 }
 
 .box-primary-nav-trigger {
@@ -290,12 +289,12 @@ h7 {
     right: 0;
     top: 0;
     height: 100%;
-    width: 120px;
+    width: 50px;
     background-color: #fff;
 }
 
 .box-primary-nav-trigger .box-menu-text {
-    color: #2b2e2d;
+    color: #393939;
     text-transform: uppercase;
     font-weight: 700;
     display: none;
