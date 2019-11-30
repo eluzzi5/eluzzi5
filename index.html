@@ -234,16 +234,18 @@
                             </div>
                         </a>
                     </div>
-
+		<a href="#poetry" class="scroll-down">poetry <br> ↓ </a>
                 </div>
                 <!-- end portfolio_container -->
             </div>
             <!-- portfolio -->
         </div>
         <!-- end portfolio div -->
+    </div>
+    <!-- end main container -->
 	    
 	    
-    <div class="container main-container center clearfix"> 
+    <div class="container main-container center clearfix" id="poetry"> 
 	  <div class="table-cell">
 		  <h6> Poetry </h6>
 <!----------------------------------------------------------------------------------------------------->
@@ -796,8 +798,6 @@ For now, I can scrape the pieces off of us to use as wood.
 	  </div>
         </div>
     <!-- end poetry-->
-    </div>
-    <!-- end main container -->
 
     <!-- footer -->
     <footer>
@@ -841,6 +841,26 @@ For now, I can scrape the pieces off of us to use as wood.
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
+	    
+       <!--  custom script -->
+    <script src="js/custom.js"></script>
+	
+	<!-- collapsible script -->
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+ 	   this.classList.toggle("active");
+ 	   var content = this.nextElementSibling;
+ 	   if (content.style.display === "block") {
+  	    content.style.display = "none";
+ 	   } else {
+ 	     content.style.display = "block";
+ 	   }
+ 	 });
+	}
+	</script>
 
 </body>
 
